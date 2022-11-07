@@ -15,7 +15,7 @@ function Header() {
 	return (
 		<nav className={styles.navbar}>
 			<div className={styles.navbar__logo}>
-				{/* <FontAwesomeIcon icon={faHotjar} className={styles.navbar__icon} /> */}
+				<FontAwesomeIcon icon={faHotjar} className={styles.navbar__icon} />
 				<a href='#'>LeeSooyeon</a>
 			</div>
 			<div

@@ -1,5 +1,24 @@
+body {
+	margin: 0;
+	font-family: Kanit;
+	background-color: var(--background-color);
+}
+
 .timeline {
-	background-color: hotpink;
 	width: 100%;
 	height: 100vh;
+}
+
+.timeline__title {
+	font-size: 36px;
+	font-weight: bold;
+	color: var(--text-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 24px 12px;
+	background-image: url('../assets/title_background2.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
 }
