@@ -22,3 +22,56 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 }
+
+.timeline__content {
+	list-style: none;
+}
+
+.timeline__content h3 {
+	position: relative;
+	font-size: 32px;
+	color: var(--accent-color2);
+	line-height: 1;
+	margin: 24px auto;
+}
+.timeline__content h4 {
+	position: relative;
+	font-size: 18px;
+	color: var(--text-color);
+	margin: 4px auto;
+}
+
+.timeline__content p {
+	position: relative;
+	font-size: 14px;
+	color: var(--text-color);
+	margin: 4px auto;
+}
+
+.timeline__content h3::before {
+	content: '';
+	position: absolute;
+	left: -40px;
+	top: 50%;
+	width: 14px;
+	height: 14px;
+	border-radius: 100%;
+	transform: translateY(-50%);
+	background-color: var(--accent-color2);
+}
+
+.timeline__content li {
+	position: relative;
+	padding: 0 0 0 33px;
+}
+
+.timeline__content li::before {
+	content: ' ';
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	bottom: -25px;
+	width: 1px;
+	transform: translateX(-50%) translateY(12px);
+	background-color: var(--accent-color2);
+}
