@@ -6,6 +6,7 @@ import About from './routes/About';
 import Timeline from './routes/Timeline';
 import Skills from './routes/Skills';
 import Project from './routes/Project';
+import Footer from './components/Footer';
 
 function App() {
 	return (
@@ -29,6 +30,7 @@ function App() {
 				<Route path={'/skills'} element={<Skills />} />
 				<Route path={'/project'} element={<Project />} />
 			</Routes>
+			<Footer />
 		</BrowserRouter>
 	);
 }

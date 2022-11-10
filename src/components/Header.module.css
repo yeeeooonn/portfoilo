@@ -31,7 +31,7 @@ a {
 }
 
 .navbar__icon {
-	color: var(--accent-color1);
+	color: var(--accent-color2);
 }
 
 .navbar__menu,
@@ -48,14 +48,14 @@ a {
 
 .navbar__menu li a:hover,
 .navbar__menu_toggled li a:hover {
-	color: (var(--accent-color1));
+	color: (var(--accent-color2));
 }
 
 .navbar__toggleBtn {
 	position: absolute;
 	right: 32px;
 	font-size: 24px;
-	color: var(--accent-color1);
+	color: var(--accent-color2);
 	display: none;
 }
 

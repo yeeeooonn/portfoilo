@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHotjar } from '@fortawesome/free-brands-svg-icons';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-// import { Link } from 'react-scroll';
 import { NavLink } from 'react-router-dom';
 
 function Header() {
@@ -15,7 +14,7 @@ function Header() {
 	return (
 		<nav className={styles.navbar}>
 			<div className={styles.navbar__logo}>
-				<FontAwesomeIcon icon={faHotjar} className={styles.navbar__icon} />
+				{/* <FontAwesomeIcon icon={faHotjar} className={styles.navbar__icon} /> */}
 				<a href='#'>LeeSooyeon</a>
 			</div>
 			<div
@@ -27,7 +26,7 @@ function Header() {
 					<NavLink
 						to='/'
 						style={({ isActive }) => ({
-							color: isActive ? '#ffdd71' : 'black',
+							color: isActive ? '#ffab40' : 'black',
 						})}
 					>
 						HOME
@@ -37,7 +36,7 @@ function Header() {
 					<NavLink
 						to={'about'}
 						style={({ isActive }) => ({
-							color: isActive ? '#ffdd71' : 'black',
+							color: isActive ? '#ffab40' : 'black',
 						})}
 					>
 						ABOUT
@@ -47,7 +46,7 @@ function Header() {
 					<NavLink
 						to={'timeline'}
 						style={({ isActive }) => ({
-							color: isActive ? '#ffdd71' : 'black',
+							color: isActive ? '#ffab40' : 'black',
 						})}
 					>
 						TIMELINE
@@ -57,7 +56,7 @@ function Header() {
 					<NavLink
 						to={'skills'}
 						style={({ isActive }) => ({
-							color: isActive ? '#ffdd71' : 'black',
+							color: isActive ? '#ffab40' : 'black',
 						})}
 					>
 						SKILLS
@@ -67,7 +66,7 @@ function Header() {
 					<NavLink
 						to={'project'}
 						style={({ isActive }) => ({
-							color: isActive ? '#ffdd71' : 'black',
+							color: isActive ? '#ffab40' : 'black',
 						})}
 					>
 						PROJECT
